@@ -1,0 +1,13 @@
+# Mac
+.DS_Store
+
+# Node (si usas JS en el futuro)
+node_modules/
+
+# Logs
+*.log
+
+# Python (por si luego agregas backend)
+__pycache__/
+*.pyc
+.env
