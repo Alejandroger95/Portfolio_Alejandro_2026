@@ -134,6 +134,7 @@ section{
   font-weight: 500;
   text-wrap: nowrap;
   transition: 0.2 ease-in-out;
+  color: black;
 }
 .btn:hover{
   background-color: black;
@@ -146,6 +147,7 @@ section{
 .socials i{
   font-size: 2.5rem;
   cursor: pointer;
+  color: black;
   transition: 0.2 ease-in-out;
 }
 .socials i:hover{
@@ -260,19 +262,20 @@ section{
   gap: 2rem;
   margin-top: 5rem;
 }
-.input-box input{
+
+
+.input-box .contact-card{
   border-radius: 3rem;
   border: 2px solid black;
   padding: 2rem 8rem;
   font-size: 3rem;
 }
-.input-box input::placeholder{
-  font-size: 3rem;
-}
-.input{
+
+.contact-card{
   position: relative;
 }
-.input i{
+
+.contact-card i{
   position: absolute;
   font-size: 4rem;
   top: 50%;
@@ -317,11 +320,8 @@ footer ul li a{
   .experience-info{
     flex-direction: column;
   }
-  .input-box input{
+  .input-box .contact-card{
     padding: 2rem 5rem;
-    font-size: 2.5rem;
-  }
-  .input input::placeholder{
     font-size: 2.5rem;
   }
   .input-box i{
@@ -343,13 +343,11 @@ footer ul li a{
   .about-container{
     flex-direction: column;
   }
-  .input-box input{
+  .input-box .contact-card{
     padding: 1rem 2rem;
     font-size: 1.8rem;
   }
-  .input-box input::placeholder{
-    font-size: 1.5rem;
-  }
+ 
   .input-box i{
     display: none;
   }
@@ -397,12 +395,9 @@ footer ul li a{
   .about-container img{
     width: 80vw;
   }
-  .input-box input{
+  .input-box .contact-card{
     padding: 0.5rem 3rem;
     width: 80%;
-    font-size: 1.5rem;
-  }
-  .input-box input::placeholder{
     font-size: 1.5rem;
   }
   footer ul{
