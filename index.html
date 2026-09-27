@@ -17,24 +17,15 @@
         <a href="#" class="logo"><span>Alejandro Gayoso</span></a>
 
         <ul class="nav-links">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <a href="https://www.linkedin.com/in/agayosoalfaro/" target="_blank" class="visit-btn">LinkedIn</a>
-
     </header>
 
     <section id="about" class="about">
@@ -55,19 +46,17 @@
 
                 <div class="socials">
                     <a href="https://github.com/Alejandroger95" target="_blank">
-                        <i class="fa-brands fa-github"></i> 
+                        <i class="fa-brands fa-github"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/agayosoalfaro/" target="_blank">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
-
             </div>
         </div>
     </section>
-    
-    <section id="experience" class="experience">
 
+    <section id="experience" class="experience">
         <h2 class="section-title">Experience</h2>
 
         <div class="experience-info">
@@ -108,65 +97,114 @@
         </div>
     </section>
 
+    <!-- PROJECTS: Split panel layout -->
     <section id="projects" class="projects">
-
         <h2 class="section-title">Recent Projects</h2>
 
-        <div class="projects-grid">
+        <div class="projects-split">
+            <!-- Left: list -->
+            <div class="projects-list-panel">
+                <div class="project-item active"
+                     data-img="img/project-1.png"
+                     data-title="Oracle to GCP Migration"
+                     data-desc="Migrated Oracle WMS data to Google Cloud (BigQuery) using REST APIs. Centralized retail data for high-scale analytics."
+                     data-tags="Python,BigQuery,REST API,GCP"
+                     data-link="#">
+                    <div class="project-item-num">01</div>
+                    <div class="project-item-info">
+                        <h3>Oracle to GCP Migration</h3>
+                        <div class="project-item-tags">
+                            <span>Python</span><span>BigQuery</span><span>GCP</span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right project-item-arrow"></i>
+                </div>
 
-            <div class="project-card">
-                <img src="img/project-1.png" alt="">
-                <h3>Oracle to GCP Migration</h3>
-                <p>Migrated Oracle WMS data to Google Cloud (BigQuery) using REST APIs. Centralized retail data for high-scale analytics.</p>
-                <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
+                <div class="project-item"
+                     data-img="img/project-2.jpg"
+                     data-title="AI Slotting Optimization"
+                     data-desc="Developed an automated Slotting model using Python (OOP). Optimized warehouse storage and significantly reduced picking times."
+                     data-tags="Python,OOP,AI/ML,Warehouse"
+                     data-link="#">
+                    <div class="project-item-num">02</div>
+                    <div class="project-item-info">
+                        <h3>AI Slotting Optimization</h3>
+                        <div class="project-item-tags">
+                            <span>Python</span><span>OOP</span><span>AI/ML</span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right project-item-arrow"></i>
+                </div>
+
+                <div class="project-item"
+                     data-img="img/project-3.png"
+                     data-title="Supply Chain Web App"
+                     data-desc="Built a full-stack web tool with custom APIs and database architecture. Enabled real-time team control and logistics monitoring."
+                     data-tags="Full-Stack,APIs,Database,Logistics"
+                     data-link="#">
+                    <div class="project-item-num">03</div>
+                    <div class="project-item-info">
+                        <h3>Supply Chain Web App</h3>
+                        <div class="project-item-tags">
+                            <span>Full-Stack</span><span>APIs</span><span>Database</span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right project-item-arrow"></i>
+                </div>
+
+                <div class="project-item"
+                     data-img="img/project-4.jpg"
+                     data-title="AMR Robot Productivity"
+                     data-desc="Created movement scripts for AMR robots to optimize picking routes. Increased machine productivity and warehouse efficiency."
+                     data-tags="Robotics,Python,Automation,AMR"
+                     data-link="#">
+                    <div class="project-item-num">04</div>
+                    <div class="project-item-info">
+                        <h3>AMR Robot Productivity</h3>
+                        <div class="project-item-tags">
+                            <span>Robotics</span><span>Python</span><span>AMR</span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right project-item-arrow"></i>
+                </div>
+
+                <div class="project-item"
+                     data-img="img/project-5.jpeg"
+                     data-title="Supply Chain Reporting"
+                     data-desc="Built a robust data infrastructure to centralize all company departments. Automated reporting workflows to streamline Supply Chain decision-making."
+                     data-tags="Data,Reporting,ETL,Automation"
+                     data-link="#">
+                    <div class="project-item-num">05</div>
+                    <div class="project-item-info">
+                        <h3>Supply Chain Reporting</h3>
+                        <div class="project-item-tags">
+                            <span>Data</span><span>Reporting</span><span>ETL</span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right project-item-arrow"></i>
                 </div>
             </div>
 
-            <div class="project-card">
-                <img src="img/project-2.jpg" alt="">
-                <h3>AI Slotting Optimization</h3>
-                <p>Developed an automated Slotting model using Python (OOP). Optimized warehouse storage and significantly reduced picking times.</p>
-                <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
+            <!-- Right: preview panel -->
+            <div class="projects-preview-panel">
+                <div class="preview-img-wrap">
+                    <img id="preview-img" src="img/project-1.png" alt="Project Preview">
+                </div>
+                <div class="preview-content">
+                    <h3 id="preview-title">Oracle to GCP Migration</h3>
+                    <p id="preview-desc">Migrated Oracle WMS data to Google Cloud (BigQuery) using REST APIs. Centralized retail data for high-scale analytics.</p>
+                    <div id="preview-tags" class="tech-badges">
+                        <span>Python</span><span>BigQuery</span><span>REST API</span><span>GCP</span>
+                    </div>
+                    <a id="preview-link" href="#" class="btn preview-btn">GitHub Repo</a>
                 </div>
             </div>
-
-            <div class="project-card">
-                <img src="img/project-3.png" alt="">
-                <h3>Supply Chain Web App</h3>
-                <p>Built a full-stack web tool with custom APIs and database architecture. Enabled real-time team control and logistics monitoring.</p>
-                <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <img src="img/project-4.jpg" alt="">
-                <h3>AMR Robot Productivity</h3>
-                <p>Created movement scripts for AMR robots to optimize picking routes. Increased machine productivity and warehouse efficiency.</p>
-                <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <img src="img/project-5.jpeg" alt="">
-                <h3>Supply Chain Reporting</h3>
-                <p>Built a robust data infrastructure to centralize all company departments. Automated reporting workflows to streamline Supply Chain decision-making.</p>
-                <div class="btn-group">
-                    <div class="btn">GitHub Repo</div>
-                </div>
-            </div>
-
         </div>
     </section>
 
     <section id="contact" class="contact">
         <div class="input-box">
-
             <h2 class="section-title">Contact Me</h2>
-
             <div class="contact-card">
                 <i class="fa-solid fa-envelope"></i>
                 <span class="email-text">agayosoalfaro@gmail.com</span>
@@ -175,28 +213,14 @@
     </section>
 
     <footer>
-
         <ul>
-            <li>
-                <a href="#about">About</a>
-            </li>
-
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-
         <p class="copyright">© All right Reserved | Alejandro Gayoso</p>
     </footer>
-
 
     <script src="js/script.js"></script>
 </body>
